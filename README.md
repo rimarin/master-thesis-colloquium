@@ -33,3 +33,8 @@ We use two example queries to compare them: Q1: selects all the columns where st
 *Figure 5*
 
 The artifacts will be implemented in C++. The multidimensional structures will include: Fixed-Grid, Grid-file, kd-tree, Quadtree, STRTree, Z-curve, Hilbert curve. A module for reading and writing Parquet partitions based on these structures will be included as well. Several datasets of relevant size with a high number of dimensions can be used in the benchmarks. A couple of open source datasets used in Flood and Tsunami will be considered: Taxi and TPC-H. In addition, the Genomic Multidimensional Range Query Benchmark (GMRQB) seems to fit this use case too. A set of relevant queries will be created. DuckDB will be used to evaluate the performance of the different partitioning techniques. The benchmarks will measure the number of partitions used in the queries across different selectivity, number of columns and partition size.
+The system architecture is depicted in Figure 6.
+
+![Figure 6](6-architecture.png)
+
+*Figure 6*
