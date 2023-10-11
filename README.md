@@ -6,8 +6,6 @@
 
 ## Towards an Optimal Physical Layout for Efficient Query Processing in the Cloud
 
-[Full proposal](https://docs.google.com/document/d/1nbzh3fr4K43IC0BOh1CAkGEVsCmRzm1m/edit)
-
 ![Figure 1](1-dataset.png)
 
 *Figure 1*
